@@ -16,7 +16,7 @@ public class GirisEkrani {
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel panel = new JPanel(new BorderLayout());
-        JLabel logoLabel = new JLabel(new ImageIcon("WhoIsIt-master//images\\Logo.png"));
+        JLabel logoLabel = new JLabel(new ImageIcon("WhoIsIt-master\\images\\Logo.png"));
 
         JButton startButton = new JButton("Başla");
         startButton.addActionListener(new ActionListener() {
