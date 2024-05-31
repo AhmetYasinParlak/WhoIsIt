@@ -53,7 +53,7 @@ public class OyunEkrani extends JFrame {
 
         for (int i = 0; i < characterNames.length; i++) {
             JLabel label = new JLabel();
-            label.setIcon(new ImageIcon("images/" + characterNames[i] + ".png"));
+            label.setIcon(new ImageIcon("WhoIsIt-master/images/" + characterNames[i] + ".png"));
             label.setPreferredSize(new Dimension(110, 170));
             label.setBounds(10 + (i % 5) * 120, 11 + (i / 5) * 190, 110, 170);
             contentPane.add(label);
